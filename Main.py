@@ -2,6 +2,7 @@
 # Import the necessary libraries
 import requests
 from bs4 import BeautifulSoup
+Word=str(input("Enter the word :"))
 
 # Set the URL of the word to be searched
 url = "https://www.dictionary.com/browse/" + word
