@@ -3,6 +3,6 @@ It's a program in Python that will find the meaning of a word using the dictiona
 ```
 $ pip install dictionary
 ```
-Once you have installed the dictionary module, you can use it to find the meaning of a word.
+<i>Once you have installed the dictionary module, you can use it to find the meaning of a word</i>
 
 This program will prompt the user to enter a word, and then it will use the dictionary module to find the meaning of the word. It will then print the meaning to the console.
