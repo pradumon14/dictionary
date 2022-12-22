@@ -6,7 +6,7 @@ import requests
 word = input("Enter a word: ")
 
 # Use requests to send a GET request to the Merriam-Webster website
-response = requests.get("https://www.merriam-webster.com/dictionary/")>
+response = requests.get("https://www.merriam-webster.com/dictionary/")
 
 # Parse the HTML content of the page using BeautifulSoup
 soup = BeautifulSoup(response.content, "html.parser")
